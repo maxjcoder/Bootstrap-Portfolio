@@ -1,88 +1,97 @@
+
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
     <title>Contact Max Jackson</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <header id="masthead">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="">Max Jackson</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+    <!-- HEADER COMMENTS  -->
+
+    <div class="mainheader">
+        <header>
+            <div>
+                <div class="name">
+                    <h4><a href="../Bootstrap-Portfolio/index.html"></a>Max M. Jackson</h4>
+                </div>
+
+                <div class="contact">
+                    <h5><a href="../Bootstrap-Portfolio/contact.html">Contact</a></h5>
+                </div>
+
+                <div class="portfolio">
+                    <h5><a href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a></h5>
+                </div>
+
+                <div class="about">
+                    <h5><a href="../Bootstrap-Portfolio/index.html">About</a></h5>
+                </div>
             </div>
-        </nav>
-    </header>
-
-    <div id="main-container" class="container">
-        <section class="main-container">
-            <h1>Contact</h1>
-
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit" name="submit">
-            </form>
-
-        </section>
-
-        <section class="sidebar">
-            <div id="connect">
-                <h2>Connect with Me</h2>
-                <img src="assets/images/github2.png" class="social" alt="GitHub">
-                <img src="assets/images/linkedin.png" class="social" alt="LinkedIn">
-                <img src="assets/images/stackoverflow.png" class="social" alt="StackOverflow">
-            </div>
-        </section>
+        </header>
     </div>
 
-    <footer id="foot">
-        <div class="card-footer text-muted">
-            &copy; Copyright 2019 Max M. Jackson, M.Ed.
-        </div>
-    </footer>
+    <!-- CONTACT COMMENTS -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+    <div class="indexcontent">
+        <article class="paragraph">  
+
+            <div id="heading">
+                <h4>Contact</h4>
+            </div>
+
+            <hr width="94.9%" id="break" style="box-shadow: 0 0 0px 0px #777777;">
+
+            <form action="/my-handling-form-page" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="user_name" />
+                    <div>
+                        <div>
+                            <label for="mail">Email</label>
+                            <br>
+                            <input type="email" id="mail" name="user_email" />
+                        </div>
+                        <div>
+                            <label for="msg">Message</label>
+                            <br>
+                            <textarea id="msg" name="user_message" style="margin: 0px; height: 100px; width: 847px;"></textarea>
+                        </div>
+                        <br>
+                        <button class="button">Submit</button>
+
+
+
+        </article>
+    </div>
+
+    <section class="sidebar">
+        <div id="connect">
+            <h2>Connect with Me</h2>
+            <img src="assets/images/github2.png" class="social" alt="GitHub">
+            <img src="assets/images/linkedin.png" class="social" alt="LinkedIn">
+            <img src="assets/images/stackoverflow.png" class="social" alt="StackOverflow">
+        </div>
+    </section>
+</div>
+
+
+    <!-- FOOTER COMMENTS -->
+
+    <div class="footer">
+        <footer>
+            <h4>
+                Copyright © 2019, Max M. Jackson, M.Ed.
+            </h4>
+        </footer>
+    </div>
+
 </body>
 
 </html>
