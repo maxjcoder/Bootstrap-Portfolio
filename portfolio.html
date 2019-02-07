@@ -3,38 +3,42 @@
 
 <html lang="en-us">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
-    <title>Portfolio for Max Jackson</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/assets/css/style.css">
+        <title>Contact Max Jackson</title>
+    </head>
 
 <body>
 
     <!-- HEADER COMMENTS  -->
 
-    <div class="mainheader">
-        <header>
-            <div>
-                <div class="name">
-                    <h4><a href="../Bootstrap-Portfolio/index.html"></a>Max M. Jackson</h4>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../Bootstrap-Portfolio/index.html">Max Jackson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="contact">
-                    <h5><a href="../Bootstrap-Portfolio/contact.html">Contact</a></h5>
-                </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About Me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
+                </li>
 
-                <div class="portfolio">
-                    <h5><a href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a></h5>
-                </div>
+            </ul>
 
-                <div class="about">
-                    <h5><a href="../Bootstrap-Portfolio/index.html">About</a></h5>
-                </div>
-            </div>
-        </header>
-    </div>
+        </div>
+    </nav>
 
     <!-- PORTFOLIO COMMENTS -->
 
@@ -84,15 +88,25 @@
         </article>
     </div>
 
-    <section class="sidebar">
-        <div id="connect">
-            <h2>Connect with Me</h2>
-            <img src="assets/images/github2.png" class="social" alt="GitHub">
-            <img src="assets/images/linkedin.png" class="social" alt="LinkedIn">
-            <img src="assets/images/stackoverflow.png" class="social" alt="StackOverflow">
+<!-- SIDEBAR COMMENTS -->
+
+<div class="card" class="container-fluid">
+        <h1>Connect</h1>
+        <p>Find me on social media</p>
+        <div class="row">
+            <div class="col-sm-4" style="background-color:lightgray; padding: 5px;">
+                <img src="../Bootstrap-Portfolio/assets/images/github2.png" alt="GitHub">
+            </div>
+            <div class="col-sm-4" style="background-color:lightgray; padding: 5px;">
+                <img src="../Bootstrap-Portfolio/assets/images/linkedin.png" alt="LinkedIn">
+
+            </div>
+            <div class="col-sm-4" style="background-color:lightgray; padding: 5px;">
+                <img src="../Bootstrap-Portfolio/assets/images/stackoverflow.png" alt="StackOverflow">
+
+            </div>
         </div>
-    </section>
-</div>
+    </div>
 
     <!-- FOOTER COMMENTS -->
 
@@ -104,6 +118,9 @@
         </footer>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 
 </html>
