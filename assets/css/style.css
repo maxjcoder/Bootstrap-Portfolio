@@ -1,6 +1,7 @@
 #heading {
-    max-width: auto; 
+    max-width: 500px;
     background-color: #4aaaa5;
-    color: white;
     padding: 3px;
+    text-align: center;
+    color: white;
 }
