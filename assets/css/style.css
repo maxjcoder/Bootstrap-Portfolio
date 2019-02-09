@@ -24,7 +24,7 @@
     background-color: #4aaaa5;
 }
 
-    #l1 {
+    div#l1, div#l2, div#l3, div#l4, div#l5 {
         width: 202px;
         float: left;
         color: white;
@@ -35,51 +35,4 @@
         position: absolute;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    
-    #l2 {
-        width: 202px;
-        float: left;
-        color: white;
-        background-color: #4aaaa5;
-        text-align: center;
-        height: 28px;
-        margin-top: 170px;
-        position: absolute;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    #l3 {
-        width: 202px;
-        float: left;
-        color: white;
-        background-color: #4aaaa5;
-        text-align: center;
-        height: 28px;
-        margin-top: 170px;
-        position: absolute;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    #l4 {
-        width: 202px;
-        float: left;
-        color: white;
-        background-color: #4aaaa5;
-        text-align: center;
-        height: 28px;
-        margin-top: 170px;
-        position: absolute;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    #l5 {
-        width: 202px;
-        float: left;
-        color: white;
-        background-color: #4aaaa5;
-        text-align: center;
-        height: 28px;
-        margin-top: 170px;
-        position: absolute;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+  
