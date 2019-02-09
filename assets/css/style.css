@@ -1,8 +1,25 @@
+.container{
+    background-image: url(../images/light-veneer.png);
+    border-top: lightslategrey 1px solid;
+    border-bottom: lightslategrey 1px solid;
+
+}
+
 #heading {
-    max-width: 500px;
+    max-width: 740px;
     background-color: #4aaaa5;
-    padding: 3px;
+    padding: 0px;
+    margin-left: 20px;
     text-align: center;
     color: white;
-    font-size: 36px;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    margin-right: 90px;
+}
+
+.col-mr-4 {
+    padding: 2px;
+    border: 1px solid lightslategray;
 }
