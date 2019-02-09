@@ -19,7 +19,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="../Bootstrap-Portfolio/index.html"
-            style="color: white; text-align: center; width: 740px; background-color: #4aaaa5; border-bottom: #666666 8px solid; margin-left: 122    px; font-size: 24px"
+            style="color: white; text-align: center; width: 740px; background-color: #4aaaa5; border-bottom: #666666 8px solid; margin-left: 122px; font-size: 24px"
             ;>Max Jackson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,72 +44,103 @@
         </div>
     </nav>
 
-    <!-- Content of the page sans header/footer: 'index content' - "Paragraph" comprises the heading, image and text denoted by 'id' divs-->
+    <!-- CONTACT MAIN -->
 
-    <div class="card">
-        <article class="card-body">
-
-            <div id="heading">
-                <h1>About Me</h1>
-            </div>
-
-            <hr width="94.9%" id="break" style="box-shadow: 0 0 0px 0px #777777;">
-
-            <div id="picture">
-                <img src="../Bootstrap-Portfolio/assets/images/Picture1.png" alt="Family">
-            </div>
-
-            <div id="text">
-                <p>
-                    My name is Max Jackson and I graduated from NAU in 2016 with my Master's Degree in Educational
-                    Leadership, CCHE (Community College and Higher Education). I began a doctoate in the same
-                    discipline/focus, but soon realized that web development is calling my name.
-                </p>
-                <br>
-                <p>
-                    I began studying full stack web development in January, 2019 and I love every minute of it. No
-                    longer do I dread reading graduate-level theoretical text. Rather, I am eager to find free time to
-                    work on projects for my web development classes. They say it's not work if you love what you do!
-                </p>
-                <br>
-                <p>
-                    Professionally, I have been working for the University of Arizona for about twelve and a half
-                    years. Currently, I am
-                    Coordinator of Admission and New Student Enrollment for the SALT Center.
-
-                    Please check out the rest of my web development portfolio and contact me if you'd like to network!
-                </p>
-                <br>
-
-                <a button type="button" class="btn btn-secondary" href="http://maxmjackson.wixsite.com/maxjnau"
-                    title="Max Jackson's Higher Education Portfolio" target="_blank">My Higher Education (Professional)
-                    Portfolio</a>
-
-
-            </div>
-
-        </article>
-    </div>
-
-    <!-- SIDEBAR COMMENTS -->
-
-    <div class="card" class="container-fluid">
-
-        <h1 id="heading">Connect</h1>
-        <p>Find me on social media</p>
+    <div class="container">
         <div class="row">
-            <div class="col-sm-4" style="background-color:lightgray; padding: 5px;">
-                <img src="../Bootstrap-Portfolio/assets/images/github2.png" alt="GitHub">
+            <div class="col-9">
+
+                <!-- CONTACT CONTENT -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="indexcontent">
+                            <article class="paragraph">
+
+                                <div id="heading">
+                                    <p style="font-size: 30px;">About Me</p>
+                                </div>
+
+                                <hr width="94.9%" id="break" style="box-shadow: 0 0 0px 0px #777777;">
+
+                                <form action="/my-handling-form-page" method="post">
+                                    <div id="picture">
+                                            <img src="../Bootstrap-Portfolio/assets/images/Picture1.png" alt="Family">
+                                        </div>
+                                    
+                                        <div id="text">
+                                            <p>
+                                                My name is Max Jackson and I graduated from NAU in 2016 with my Master's Degree in Educational
+                                                Leadership, CCHE (Community College and Higher Education). I began a doctoate in the same
+                                                discipline/focus, but soon realized that web development is calling my name.
+                                            </p>
+                                            <br>
+                                            <p>
+                                                I began studying full stack web development in January, 2019 and I love every minute of it. No
+                                                longer do I dread reading graduate-level theoretical text. Rather, I am eager to find free time to
+                                                work on projects for my web development classes. They say it's not work if you love what you do!
+                                            </p>
+                                            <br>
+                                            <p>
+                                                Professionally, I have been working for the University of Arizona for about twelve and a half
+                                                years. Currently, I am
+                                                Coordinator of Admission and New Student Enrollment for the SALT Center.
+                                    
+                                                Please check out the rest of my web development portfolio and contact me if you'd like to network!
+                                            </p>
+                                            <br>
+                                    
+                                            <a button type="button" class="btn btn-secondary" href="http://maxmjackson.wixsite.com/maxjnau"
+                                                title="Max Jackson's Higher Education Portfolio" target="_blank">My Higher Education (Professional)
+                                                Portfolio</a>
+                                    
+                                    
+                                        </div>
+                                </form>
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4" style="background-color:lightgray; padding: 5px;">
-                <img src="../Bootstrap-Portfolio/assets/images/linkedin.png" alt="LinkedIn">
+
+            <!-- SIDEBAR MAIN -->
+
+            <div class="col-sm-3">
+
+                <!-- SIDEBAR CONTENT -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="indexcontent">
+                            <article class="social">
+
+                                <p style="text-align:center;">Connect:</p>
+                                <hr>
+                                <p style="text-align:center;">Find me on social media</p>
+
+                                <div class="row">
+                                    <div class="col-mr-4">
+                                        <img src="../Bootstrap-Portfolio/assets/images/github2.png" width="75"
+                                            height="75" alt="GitHub">
+                                    </div>
+
+                                    <div class="col-mr-4">
+                                        <img src="../Bootstrap-Portfolio/assets/images/linkedin.png" width="75"
+                                            height="75" alt="LinkedIn">
+                                    </div>
+
+                                    <div class="col-mr-4">
+                                        <img src="../Bootstrap-Portfolio/assets/images/stackoverflow.png" width="75"
+                                            height="75" alt="StackOverflow">
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-            <div class="col-sm-4" style="background-color:lightgray; padding: 5px;">
-                <img src="../Bootstrap-Portfolio/assets/images/stackoverflow.png" alt="StackOverflow">
 
-            </div>
         </div>
+
     </div>
 
     <!-- FOOTER MAIN -->
