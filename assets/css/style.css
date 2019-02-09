@@ -23,3 +23,63 @@
     border: 1px solid white;
     background-color: #4aaaa5;
 }
+
+    #l1 {
+        width: 202px;
+        float: left;
+        color: white;
+        background-color: #4aaaa5;
+        text-align: center;
+        height: 28px;
+        margin-top: 170px;
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #l2 {
+        width: 202px;
+        float: left;
+        color: white;
+        background-color: #4aaaa5;
+        text-align: center;
+        height: 28px;
+        margin-top: 170px;
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #l3 {
+        width: 202px;
+        float: left;
+        color: white;
+        background-color: #4aaaa5;
+        text-align: center;
+        height: 28px;
+        margin-top: 140px;
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #l4 {
+        width: 202px;
+        float: left;
+        color: white;
+        background-color: #4aaaa5;
+        text-align: center;
+        height: 28px;
+        margin-top: 75px;
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #l5 {
+        width: 202px;
+        float: left;
+        color: white;
+        background-color: #4aaaa5;
+        text-align: center;
+        height: 28px;
+        margin-top: 3px;
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
