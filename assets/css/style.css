@@ -2,17 +2,16 @@
     background-image: url(../images/light-veneer.png);
     border-top: lightslategrey 1px solid;
     border-bottom: lightslategrey 1px solid;
-
 }
 
 #heading {
-    max-width: 740px;
+    max-width: 250px;
     background-color: #4aaaa5;
     padding: 0px;
-    margin-left: 20px;
+    margin-left: 256px;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .navbar-nav {
@@ -21,5 +20,6 @@
 
 .col-mr-4 {
     padding: 2px;
-    border: 1px solid lightslategray;
+    border: 1px solid white;
+    background-color: #4aaaa5;
 }
