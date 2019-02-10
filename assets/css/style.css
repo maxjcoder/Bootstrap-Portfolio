@@ -1,15 +1,13 @@
-.container{
+.container {
     background-image: url(../images/light-veneer.png);
-    border-top: lightslategrey 1px solid;
-    border-bottom: lightslategrey 1px solid;
+    border-top: lightslategrey 2px solid;
+    border-bottom: lightslategrey 2px solid;
 }
 
 #heading {
-    max-width: 250px;
     background-color: #4aaaa5;
-    padding: 0px;
-    margin-left: 256px;
-    text-align: center;
+    padding-left: 2.4%;
+    text-align: left;
     color: white;
     font-size: 24px;
 }
@@ -35,4 +33,3 @@
         position: absolute;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
-  
