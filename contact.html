@@ -61,28 +61,17 @@
 
                             <hr width="94.9%" id="break" style="box-shadow: 0 0 0px 0px #777777;">
 
-                            <form action="/my-handling-form-page" method="post">
-                                <div>
-                                    <label for="name" style="color: #666666" ;>Name</label>
-                                    <br>
-                                    <input type="text" id="name" name="user_name" style="margin: 0px; width: 100%;">
-                                    <div>
-                                        <div>
-                                            <label for="mail" style="color: #666666" ;>Email</label>
-                                            <br>
-                                            <input type="email" id="mail" name="user_email"
-                                                style="margin: 0px; width: 100%;">
-                                        </div>
-                                        <div>
-                                            <label for="msg" style="color: #666666" ;>Message</label>
-                                            <br>
-                                            <textarea id="msg" name="user_message"
-                                                style="margin: 0px; height: 100px; width: 100%;"></textarea>
-                                        </div>
-                                        <br>
-                                        <button class="button">Submit</button>
-                                    </div>
-                                </div>
+                            <form method="post" name="contact_form" action="contact-form-handler.php" style="color: #666666" ;>
+                                Your Name:
+                                <input type="text" name="name" style="margin: 0px; width: 100%;">
+
+                                Email Address:
+                                <input type="text" name="email" style="margin: 0px; width: 100%;">
+
+                                Message:
+                                <textarea name="message" style="margin: 0px; width: 100%;"></textarea>
+
+                                <input type="submit" value="Submit" style="color: #666666" ;>
                             </form>
 
                         </div>
@@ -105,19 +94,25 @@
                                 <p style="color: #666666; text-align:center;">Find me on social media</p>
 
                                 <div class="row">
-                                        <div class="col-mr-4">
-                                                <a href="https://github.com/maxjcoder"title="Max Jackson's GitHub Profile" target="_blank"><img src="../Bootstrap-Portfolio/assets/images/github2.png" width="75"
-                                                height="75" alt="GitHub"></a>
-                                        </div>
-    
-                                        <div class="col-mr-4">
-                                                <a href="https://www.linkedin.com/in/maxjnau/"title="Max Jackson's LinkedIn Profile" target="_blank"><img src="../Bootstrap-Portfolio/assets/images/linkedin.png" width="75"
+                                    <div class="col-mr-4">
+                                        <a href="https://github.com/maxjcoder" title="Max Jackson's GitHub Profile"
+                                            target="_blank"><img src="../Bootstrap-Portfolio/assets/images/github2.png"
+                                                width="75" height="75" alt="GitHub"></a>
+                                    </div>
+
+                                    <div class="col-mr-4">
+                                        <a href="https://www.linkedin.com/in/maxjnau/"
+                                            title="Max Jackson's LinkedIn Profile" target="_blank"><img
+                                                src="../Bootstrap-Portfolio/assets/images/linkedin.png" width="75"
                                                 height="75" alt="LinkedIn"></a>
-                                        </div>
-    
-                                        <div class="col-mr-4">
-                                                <a href="https://stackexchange.com/users/14736814/max-jackson"title="Max Jackson's StackOverflow Profile" target="_blank"><img src="../Bootstrap-Portfolio/assets/images/stackoverflow.png" width="75" height="75" alt="StackOverflow"></a>
-                                        </div>
+                                    </div>
+
+                                    <div class="col-mr-4">
+                                        <a href="https://stackexchange.com/users/14736814/max-jackson"
+                                            title="Max Jackson's StackOverflow Profile" target="_blank"><img
+                                                src="../Bootstrap-Portfolio/assets/images/stackoverflow.png" width="75"
+                                                height="75" alt="StackOverflow"></a>
+                                    </div>
                                 </div>
                         </div>
                     </div>
