@@ -26,6 +26,9 @@
     background-color: #4aaaa5;
 }
 
+#picture {
+    margin-bottom: 15px;
+}
 
 /* DRY - Don't Repeat Yourself */
 
