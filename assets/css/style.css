@@ -1,4 +1,6 @@
-
+.card {
+    background-image: url(../images/noisy.png);
+}
 
 .container {
     background-image: url(../images/light-veneer.png);
