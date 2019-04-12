@@ -30,16 +30,17 @@
     margin-bottom: 15px;
 }
 
+
+
 /* DRY - Don't Repeat Yourself */
 
     div#l1, div#l2, div#l3, div#l4, div#l5, div#l6, div#l7, div#l8, div#l9 {
         width: 202px;
         float: left;
         color: white;
-        background-color: #4aaaa5;
         text-align: center;
         height: 28px;
         margin-top: 170px;
         position: absolute;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
